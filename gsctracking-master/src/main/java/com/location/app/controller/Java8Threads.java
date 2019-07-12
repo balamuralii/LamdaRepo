@@ -13,7 +13,7 @@ public class Java8Threads {
 		
 		CountDownLatch latch = new CountDownLatch(5000);
 		
-		Products p1	=new Products(1,"HP Laptop",25000f,latch);  
+		Products p1	=new Products(1,"HP ",25000f,latch);  
 		Products p2=new Products(2,"Dell Laptop",30000f,latch);  
 		Products p3=new Products(3,"Lenevo Laptop",28000f,latch);  
 		Products p4 =new Products(4,"Sony Laptop",28000f,latch);  
